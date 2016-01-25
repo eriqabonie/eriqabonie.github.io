@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	
+	<link rel="icon" href="tick.gif" type="image/gif" sizes="16x16">
     
     <!--this is the code to make it work with IE-->
 	<!-- IE8 support for HTML5 elements and media queries -->
@@ -50,6 +51,7 @@
 			  
                 <li class="page-scroll"><a href="#about" style="color:#FFFFFF">About</a></li>
                 <li class="page-scroll"><a href="#portfolio" style="color:#FFFFFF">Portfolio</a></li>
+				<li class="page-scroll"><a href="#skills" style="color:#FFFFFF">Skills</a></li>
                 <li class="page-scroll"><a href="#contact" style="color:#FFFFFF">Contact</a></li>
                 
                  
@@ -162,25 +164,25 @@
                     <img class="img-responsive" src="bigCityPhones_tile.png" alt="">
                 </a>
                 <h3>
-                    <a href="#">Big City Phones</a>
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">Big City Phones</a>
                 </h3>
                 <p>A mobile phone repair business. One of my first websites built many years ago in Joomla. I was tasked with building a website that would simply give the business an online presence. Web development has come a long way since then. As have I. </p>
             </div>
             <div class="col-md-4 portfolio-item">
-                <a href="#">
+                <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                     <img class="img-responsive" src="deKaks_tile.png" alt="">
                 </a>
                 <h3>
-                    <a href="#">De Kaks Ghana Ltd</a>
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">De Kaks Ghana Ltd</a>
                 </h3>
-                <p>A multi-Service company providing products and services to the business and consumer markerts in Ghana West Africa. This business quickly needed a responsive website that would serve as their online presence. The project was halted midway due to some internal adjustments taking place within that organisation.</p>
+                <p>A multi-Service company providing products and services to the business and consumer markerts in Ghana West Africa. This project is currently on hold to allow for some internal adjustments taking place within that organisation.</p>
             </div>
             <div class="col-md-4 portfolio-item">
-                <a href="#">
+                <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                     <img class="img-responsive" src="lush_tile.png" alt="">
                 </a>
                 <h3>
-                    <a href="#">Lush Eye Lashes</a>
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">Lush Eye Lashes</a>
                 </h3>
                 <p>A semi permanent Eye Lash Extention business in Manchester. This fully responsive brochure website is built in bootstrap with a focus on "Mobile First" development as most customers would access it via mobile devices only.</p>
             </div>
@@ -192,31 +194,31 @@
         <!-- Projects Row -->
         <div class="row">
             <div class="col-md-4 portfolio-item">
-                <a href="#">
+                <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                     <img class="img-responsive" src="qab_tile.png" alt="">
                 </a>
                 <h3>
-                    <a href="#">QAB Systems</a>
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">QAB Systems</a>
                 </h3>
-                <p>A computer and electronics business in the UK. I built this website in Joomla many years ago to serve as a B2B brochure website. The main users would access this via desktop terminals</p>
+                <p>A computer and electronics business in the UK. I built this website in Joomla to serve as a B2B brochure website. The main users would access this website via desktop terminals.</p>
             </div>
             <div class="col-md-4 portfolio-item">
-                <a href="#">
+                <a href="#skills">
                     <img class="img-responsive" src="windows_store_logo.png" alt="">
                 </a>
                 <h3>
-                    <a href="#">Project Coming Soon</a>
+                    <a href="#skills">Project Coming Soon</a>
                 </h3>
                 <p>I am currently working on developing a window store application as part of my continuous personal developent as well as for fun. This is what I do in my spare time....I know, sad right?.</p>
             </div>
             <div class="col-md-4 portfolio-item">
-                <a href="#">
+                <a href="#contact">
                     <img class="img-responsive" src="comingSoon_tile.png" alt="">
                 </a>
                 <h3>
-                    <a href="#">Your Project Here</a>
-                </h3>
-                <p>As a freelance developer, I'm always on the look out for new projects. Get in touch and lets discuss how we can make your vision a reality. Your website could be feature here.</p>
+                    <a href="#contact">Your Project Here</a>
+					</h3>
+                <p>As a freelance developer, I'm always on the look out for new projects. Get in touch and lets discuss how we can make your vision a reality. Your website could be featured here.</p>
             </div>
         </div>
 
@@ -556,15 +558,97 @@
       
       <img src="bcphone_site.png" class="img-responsive" alt="" />
       
-        Mobile Phone Repair Website
+        A Mobile Phone Repair Website
       </div>
       <div class="modal-footer">
+	  
+	  <a class="btn btn-info" href="http://bigcityphones.co.uk/" target="_blank" role="button">Visit</a>
+	  
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		
+		
+        <!-- E.A this is a save buttom. not needed so remove. <button type="button" class="btn btn-primary">Save changes</button>-->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">KaksServices.com</h4>
+      </div>
+      <div class="modal-body">
+      
+      <img src="kaksservices_site.png" class="img-responsive" alt="" />
+      
+        A Multi-Service Company Ghana, West Africa
+      </div>
+      <div class="modal-footer">
+	  
+	  <a class="btn btn-info" href="http://www.kaksservices.com/" target="_blank" role="button">Visit</a>
+	  
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         <!-- E.A this is a save buttom. not needed so remove. <button type="button" class="btn btn-primary">Save changes</button>-->
       </div>
     </div>
   </div>
 </div>
+
+
+
+<div class="modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">LushEyeLashes.co.uk</h4>
+      </div>
+      <div class="modal-body">
+      
+      <img src="lusheyelashes_site.png" class="img-responsive" alt="" />
+      
+        A Semi-Permanent Eye Lashes Business in Manchester, UK
+      </div>
+      <div class="modal-footer">
+	  
+	  <a class="btn btn-info" href="http://www.lusheyelashes.co.uk/" target="_blank" role="button">Visit</a>
+	  
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <!-- E.A this is a save buttom. not needed so remove. <button type="button" class="btn btn-primary">Save changes</button>-->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">QABSystems.co.uk</h4>
+      </div>
+      <div class="modal-body">
+      
+      <img src="qabsystems_site.png" class="img-responsive" alt="" />
+      
+        A computer and electronics business based in the UK
+      </div>
+      <div class="modal-footer">
+	  
+	  <a class="btn btn-info" href="http://www.qabsystems.co.uk/" target="_blank" role="button">Visit</a>
+	  
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <!-- E.A this is a save buttom. not needed so remove. <button type="button" class="btn btn-primary">Save changes</button>-->
+      </div>
+    </div>
+  </div>
+</div>
+
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<!-- Latest compiled and minified JavaScript -->

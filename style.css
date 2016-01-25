@@ -104,9 +104,10 @@ body {
 
 
 
-.col-md-4 {
+.col-md-4 portfolio-item{
 	
-	text-align:center
+	text-align:center;
+	color:#0000FF;
 	
 }
 
@@ -124,6 +125,14 @@ body {
 	color: #FFFFFF
 	
 	}
+	
+	
+.col-md-4 {
+		
+		text-align:center;
+		
+	}
+	
 
 #price_title{
 
