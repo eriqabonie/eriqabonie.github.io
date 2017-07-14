@@ -52,6 +52,13 @@ body {
 #hero .glyphicon {
 	color: #2c3e50;
 }
+
+
+#head_room {
+
+padding-top: 50px;
+}
+
 #about, #contact #portfolio{
 	padding: 15px 0;
 }
